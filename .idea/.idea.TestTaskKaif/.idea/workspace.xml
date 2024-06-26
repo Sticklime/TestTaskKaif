@@ -5,17 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0654a3e-39a6-4538-860b-fd81e423186f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/BootstrapState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/BootstrapState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameBootstrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameBootstrapper.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/IGameStateMachine.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/IGameStateMachine.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/IState.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/IState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/IStateFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/IStateFactory.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/IStateMachine.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/IStateMachine.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/LoadGameState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/LoadGameState.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/Factory.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/Factory/UIFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/Factory/UIFactory.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/SceneLoader.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/SceneLoader/SceneLoader.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/SceneLoader/SceneLoader.cs.meta" afterDir="false" />
@@ -23,7 +30,12 @@
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/StateMachine.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/StateMachineLifetimeScope.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/CodeBase/StateMachineLifetimeScope.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Bootstrap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bootstrap.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bootstrap.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719368056240</updated>
-      <workItem from="1719368059646" duration="11263000" />
+      <workItem from="1719368059646" duration="13033000" />
     </task>
     <servers />
   </component>
