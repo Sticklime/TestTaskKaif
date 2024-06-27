@@ -11,9 +11,6 @@ namespace CodeBase.DomainLogic
             _progressProvider = progressProvider;
         }
         
-        public int GetCountClick() =>
-            _progressProvider.PlayerData.ClickData.CountClick;
-        
         public void AddClick()
         {
             _progressProvider.PlayerData.ClickData.CountClick++;

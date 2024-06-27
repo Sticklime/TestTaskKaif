@@ -1,23 +1,33 @@
-﻿using CodeBase.Data;
+﻿using System;
+using CodeBase.Data;
 
 namespace CodeBase.DomainLogic
 {
-    public class LevelHandler
+    public class LevelHandler : IChangedObserver
     {
         private readonly IProgressProvider _progressProvider;
+
+        private event Action _isChangedLevel;
 
         public LevelHandler(IProgressProvider progressProvider)
         {
             _progressProvider = progressProvider;
         }
 
+        public void AddListenerIsChanged(Action action) =>
+            _isChangedLevel += action;
+
+        public void RemoveListenerIsChanged(Action action) =>
+            _isChangedLevel -= action;
+
         public void AddLevelPoint(int countPoint)
         {
             var levelData = _progressProvider.PlayerData.LevelData;
-
             levelData.CurrentPointLevel += countPoint;
-
+            
             TryLevelUp(levelData);
+            
+            _isChangedLevel?.Invoke();
         }
 
         private static void TryLevelUp(LevelData levelData)

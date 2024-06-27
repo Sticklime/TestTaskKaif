@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using VContainer;
 
-namespace CodeBase.DomainLogic
+namespace CodeBase.DomainLogic.ScoreClicker
 {
     public class ScoreClickPresenter : MonoBehaviour
     {

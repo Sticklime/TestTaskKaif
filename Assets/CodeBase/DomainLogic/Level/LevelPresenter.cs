@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using VContainer;
 
-namespace CodeBase.DomainLogic
+namespace CodeBase.DomainLogic.Level
 {
     public class LevelPresenter : MonoBehaviour
     {
@@ -15,7 +15,13 @@ namespace CodeBase.DomainLogic
             _levelHandler = levelHandler;
         }
 
-        public void ChangeLevel()
+        public void OnEnable() => 
+            _levelHandler.AddListenerIsChanged(ChangeLevel);
+
+        public void OnDisable() => 
+            _levelHandler.RemoveListenerIsChanged(ChangeLevel);
+
+        private void ChangeLevel()
         {
             var currentLevel = _levelHandler.GetCurrentLevel();
             var currentPointLevel = _levelHandler.GetCurrentPointLevel();
