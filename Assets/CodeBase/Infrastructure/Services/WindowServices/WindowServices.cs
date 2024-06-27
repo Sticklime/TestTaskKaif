@@ -5,7 +5,7 @@ namespace CodeBase.Infrastructure.Services.WindowServices
     public class WindowServices : IWindowServices
     {
         private readonly IUIFactory _uiFactory;
-        
+
         private WindowType _currentWindow;
 
         public WindowServices(IUIFactory uiFactory)
@@ -27,5 +27,6 @@ namespace CodeBase.Infrastructure.Services.WindowServices
     public enum WindowType
     {
         Default = 0,
+        ClickerWindow = 1,
     }
 }
