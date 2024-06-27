@@ -1,5 +1,5 @@
 ﻿using CodeBase;
-using CodeBase.Services.SceneLoader;
+using CodeBase.Infrastructure.Services.SceneLoader;
 
 public class LoadGameState : IState
 {
