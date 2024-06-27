@@ -18,21 +18,23 @@ namespace CodeBase
             _stateMachine = stateMachine;
             _objectResolver = objectResolver;
             _uiFactory = uiFactory;
+            StartGame();
         }
 
-        private void Awake()
+        private void StartGame()
         {
             DontDestroyOnLoad(gameObject);
             _uiFactory.Load();
-            
+
             RegisterState();
-            
-            _stateMachine.Enter<LoadGameState>();
+
+            _stateMachine.Enter<LoadProgressState>();
         }
 
         private void RegisterState()
         {
             _stateMachine.RegisterState<LoadGameState>(_objectResolver.Resolve<LoadGameState>());
+            _stateMachine.RegisterState<LoadProgressState>(_objectResolver.Resolve<LoadProgressState>());
         }
     }
 }

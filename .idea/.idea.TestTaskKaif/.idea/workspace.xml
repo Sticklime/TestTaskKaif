@@ -5,8 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0654a3e-39a6-4538-860b-fd81e423186f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/PlayerData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/PlayerData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ClickerButtonView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ClickerButtonView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClick.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClick.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClickPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClickPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePointView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePointView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/IWindowServices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/IWindowServices.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/WindowType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/WindowType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/StateMachine/State/LoadProgressState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/StateMachine/State/LoadProgressState.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Bindings/MainLifetimeScope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Bindings/MainLifetimeScope.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Boot/GameBootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Boot/GameBootstrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/IUIFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/IUIFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/UIFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/UIFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/PathProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/PathProvider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/WindowServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/WindowServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/StateMachine/State/LoadGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/StateMachine/State/LoadGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Windows/ClickerWindow_Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Windows/ClickerWindow_Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +109,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="26392">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="26392" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -129,5 +163,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClick.cs</url>
+          <line>17</line>
+          <properties documentPath="C:\Users\Sticklime\My project (6)\TestTaskKaif\Assets\CodeBase\DomainLogic\ScoreClick.cs" initialLine="17" containingFunctionPresentation="Method 'AddClick'">
+            <startOffsets>
+              <option value="442" />
+            </startOffsets>
+            <endOffsets>
+              <option value="443" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

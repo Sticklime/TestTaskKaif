@@ -1,4 +1,6 @@
-﻿using CodeBase.Infrastructure.Factory;
+﻿using CodeBase.Data;
+using CodeBase.DomainLogic;
+using CodeBase.Infrastructure.Factory;
 using CodeBase.Infrastructure.Services.SceneLoader;
 using CodeBase.Infrastructure.Services.WindowServices;
 using CodeBase.Infrastructure.State;
@@ -15,8 +17,14 @@ namespace CodeBase.Infrastructure.Bindings
             builder.Register<ISceneLoader, SceneLoader>(Lifetime.Singleton);
             builder.Register<IUIFactory, UIFactory>(Lifetime.Singleton);
             builder.Register<IWindowServices, WindowServices>(Lifetime.Singleton);
-            
+            builder.Register<IProgressProvider, ProgressProvider>(Lifetime.Singleton);
+
+            builder.Register<ScorePoint>(Lifetime.Singleton);
+            builder.Register<ScoreClick>(Lifetime.Singleton);
+            builder.Register<LevelHandler>(Lifetime.Singleton);
+
             builder.Register<LoadGameState>(Lifetime.Transient);
+            builder.Register<LoadProgressState>(Lifetime.Transient);
         }
     }
 }

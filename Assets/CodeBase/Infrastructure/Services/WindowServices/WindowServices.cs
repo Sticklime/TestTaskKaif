@@ -18,15 +18,4 @@ namespace CodeBase.Infrastructure.Services.WindowServices
             _uiFactory.CreateWindow(windowType);
         }
     }
-
-    public interface IWindowServices
-    {
-        void OpenWindow(WindowType windowType);
-    }
-
-    public enum WindowType
-    {
-        Default = 0,
-        ClickerWindow = 1,
-    }
 }

@@ -1,4 +1,5 @@
 ﻿using CodeBase.Infrastructure.Services.WindowServices;
+using UnityEngine;
 
 namespace CodeBase.Infrastructure.Factory
 {
@@ -6,5 +7,6 @@ namespace CodeBase.Infrastructure.Factory
     {
         void Load();
         WindowBase CreateWindow(WindowType windowType);
+        GameObject CreateNavigationBar();
     }
 }
