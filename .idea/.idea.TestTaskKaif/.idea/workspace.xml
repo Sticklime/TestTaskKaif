@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0654a3e-39a6-4538-860b-fd81e423186f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePointsPresenter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePointsPresenter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/IChangedObserver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/IChangedObserver.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ClickerButtonView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ClickerButtonView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ClickerButtonView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ClickerButtonView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelHandler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelHandler.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelPresenter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/LevelView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ScoreClick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClick.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ScoreClick.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClickPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ScoreClickPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClickPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ScoreClickPresenter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePoint.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePointView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePointView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePointView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePointView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/NavigaionBar/NavigationBar_Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/NavigaionBar/NavigationBar_Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Figma/Rectangle 1 (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Figma/Rectangle 1 (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/blueBtnNormal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/blueBtnNormal.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +33,7 @@
     "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "NavigationBar",
+    "git-widget-placeholder": "ShopWindow",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,10 +76,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="26392">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="26392" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
