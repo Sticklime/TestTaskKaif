@@ -1,6 +1,5 @@
-using System.Collections;
-using CodeBase.Infrastructure.Factory;
 using CodeBase.Infrastructure.State;
+using CodeBase.Infrastructure.StateMachine.State;
 using UnityEngine;
 using VContainer;
 
@@ -10,31 +9,27 @@ namespace CodeBase
     {
         private IGameStateMachine _stateMachine;
         private IObjectResolver _objectResolver;
-        private IUIFactory _uiFactory;
 
         [Inject]
-        public void Construct(IGameStateMachine stateMachine, IObjectResolver objectResolver, IUIFactory uiFactory)
+        public void Construct(IGameStateMachine stateMachine, IObjectResolver objectResolver)
         {
             _stateMachine = stateMachine;
             _objectResolver = objectResolver;
-            _uiFactory = uiFactory;
-            StartGame();
         }
 
-        private void StartGame()
+        private void Awake()
         {
             DontDestroyOnLoad(gameObject);
-            _uiFactory.Load();
-
             RegisterState();
 
-            _stateMachine.Enter<LoadProgressState>();
+            _stateMachine.Enter<BootstrapperState>();
         }
 
         private void RegisterState()
         {
-            _stateMachine.RegisterState<LoadGameState>(_objectResolver.Resolve<LoadGameState>());
+            _stateMachine.RegisterState<BootstrapperState>(_objectResolver.Resolve<BootstrapperState>());
             _stateMachine.RegisterState<LoadProgressState>(_objectResolver.Resolve<LoadProgressState>());
+            _stateMachine.RegisterState<LoadGameState>(_objectResolver.Resolve<LoadGameState>());
         }
     }
 }

@@ -5,9 +5,114 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0654a3e-39a6-4538-860b-fd81e423186f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/Configs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/Configs/ItemType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/Configs/ItemType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/Configs/ItemsConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/Configs/ItemsConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/Configs/StoreItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/Configs/StoreItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/ClickData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/ClickData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/IProgressProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/IProgressProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/ItemData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/ItemData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/LevelData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/LevelData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/PlayerData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/ProgressProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/ProgressProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/PurchasedItemData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/PurchasedItemData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ClickEffect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ClickEffect/ClickEffectPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ClickEffect/ClickEffectPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ClickEffect/ClickEffectView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ClickEffect/ClickEffectView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Item.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Item/BuyItemPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Item/BuyItemPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/NavigationPanel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/NavigationPanel/NavigationButtonView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/NavigationPanel/NavigationButtonView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Purchases.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Purchases/PurchasesHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Purchases/PurchasesHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Store.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Store/StorePresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Store/StorePresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Window.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Window/ClickerWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Window/ClickerWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Window/ShopWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Window/ShopWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Window/WindowBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/ConfigProvider.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/ConfigProvider/ConfigProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/ConfigProvider/ConfigProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/ConfigProvider/IConfigProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/ConfigProvider/IConfigProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/SaveLoad.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/SaveLoad/ISaveLoadServices.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/SaveLoad/ISaveLoadServices.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/SaveLoad/SaveLoadSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/SaveLoad/SaveLoadSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/SceneLoader/ISceneLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/SceneLoader/ISceneLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/StateMachine/State/BootstrapperState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/StateMachine/State/BootstrapperState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/ObjectPools.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/ObjectPools/IObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/ObjectPools/IObjectPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/ObjectPools/ObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/ObjectPools/ObjectPool.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskKaif/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Data/PlayerData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Data/PlayerData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Data/ProgressData/PlayerData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Level.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Level/LevelHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelHandler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Level/LevelHandler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Level/LevelPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Level/LevelPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Level/LevelView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/Level/LevelView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Level/LevelView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScoreClicker.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ClickerButtonView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScoreClicker/ClickerButtonView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ClickerButtonView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScoreClicker/ClickerButtonView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ScoreClick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScoreClicker/ScoreClick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ScoreClick.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScoreClicker/ScoreClick.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ScoreClickPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScoreClicker/ScoreClickPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScoreClicker/ScoreClickPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScoreClicker/ScoreClickPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScorePoints.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScorePoints/ScorePoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePoint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScorePoints/ScorePoint.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePointView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScorePoints/ScorePointView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePointView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScorePoints/ScorePointView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePointsPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScorePoints/ScorePointsPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/DomainLogic/ScorePoints/ScorePointsPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/ScorePoints/ScorePointsPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/IChangedObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/IChangedObserver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Bindings/MainLifetimeScope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Bindings/MainLifetimeScope.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Boot/GameBootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Boot/GameBootstrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/IUIFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/IUIFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/UIFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/UIFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/PathProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/PathProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/SceneLoader/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/SceneLoader/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/IWindowServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/IWindowServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/WindowServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/WindowServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/WindowType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Services/WindowServices/WindowType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/StateMachine/State/LoadGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/StateMachine/State/LoadGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/StateMachine/State/LoadProgressState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/StateMachine/State/LoadProgressState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/WindowBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/WindowBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/GameLogic/Window/WindowBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/NavigaionBar/NavigationBar_Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/NavigaionBar/NavigationBar_Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/NavigaionBar/OpenWindow_Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/NavigaionBar/OpenWindow_Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Windows/ClickerWindow_Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Windows/ClickerWindow_Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Windows/ShopWindow/ContentShop_Container.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Windows/ShopWindow/ContentShop_Container.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Windows/ShopWindow/ShopWindow_Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Windows/ShopWindow/ShopWindow_Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/blueBtnNormal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/blueBtnNormal.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +123,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/228a75ed9d5b4a658c89f48527e7e2e0175400/72/27887f93/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/228a75ed9d5b4a658c89f48527e7e2e0175400/a8/347d4089/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/228a75ed9d5b4a658c89f48527e7e2e0175400/d6/8c017f3d/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4b234520e36749be9cf6b053d911690f46ac00/32/5a45fc93/Lazy`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4b234520e36749be9cf6b053d911690f46ac00/cb/8d540371/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CodeBase/GameLogic/Item/StoreContentView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CodeBase/GameLogic/NavigationPanel/NavigationPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -33,7 +146,7 @@
     "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ShopWindow",
+    "git-widget-placeholder": "NavigationBar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,10 +189,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="26392">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="26392" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />

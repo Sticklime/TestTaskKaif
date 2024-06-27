@@ -1,5 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using CodeBase.GameLogic.ClickEffect;
+using CodeBase.GameLogic.Item;
+using CodeBase.GameLogic.Store;
 using CodeBase.Infrastructure.Services.WindowServices;
 using UnityEngine;
 using VContainer;
@@ -12,7 +15,9 @@ namespace CodeBase.Infrastructure.Factory
         private readonly IObjectResolver _objectResolver;
 
         private List<WindowBase> _windowPrefabs;
+        private StoreContentView _storeContentPrefab;
         private GameObject _navigationBarPrefab;
+        private ClickEffectView _clickEffectPrefab;
 
         public UIFactory(IObjectResolver objectResolver)
         {
@@ -23,6 +28,8 @@ namespace CodeBase.Infrastructure.Factory
         {
             _windowPrefabs = Resources.LoadAll<WindowBase>(PathProvider.WindowPath).ToList();
             _navigationBarPrefab = Resources.Load<GameObject>(PathProvider.NavigationBarPath);
+            _storeContentPrefab = Resources.Load<StoreContentView>(PathProvider.ShopContentPath);
+            _clickEffectPrefab = Resources.Load<ClickEffectView>(PathProvider.ClickEffectPath);
         }
 
         public WindowBase CreateWindow(WindowType windowType)
@@ -32,9 +39,13 @@ namespace CodeBase.Infrastructure.Factory
             return _objectResolver.Instantiate(windowPrefab);
         }
 
-        public GameObject CreateNavigationBar()
-        {
-            return _objectResolver.Instantiate(_navigationBarPrefab);
-        }
+        public void CreateNavigationBar() =>
+            _objectResolver.Instantiate(_navigationBarPrefab);
+
+        public StoreContentView CreateStoreContent(Transform parent) =>
+            _objectResolver.Instantiate(_storeContentPrefab, parent);
+
+        public ClickEffectView CreateEffectClick(Transform parent) => 
+            _objectResolver.Instantiate(_clickEffectPrefab, parent);
     }
 }

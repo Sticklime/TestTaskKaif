@@ -4,5 +4,7 @@
     {
         Default = 0,
         ClickerWindow = 1,
+        ShopWindow = 2,
+        
     }
 }

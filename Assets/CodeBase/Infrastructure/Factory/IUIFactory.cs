@@ -1,4 +1,7 @@
-﻿using CodeBase.Infrastructure.Services.WindowServices;
+﻿using CodeBase.GameLogic.ClickEffect;
+using CodeBase.GameLogic.Item;
+using CodeBase.GameLogic.Store;
+using CodeBase.Infrastructure.Services.WindowServices;
 using UnityEngine;
 
 namespace CodeBase.Infrastructure.Factory
@@ -7,6 +10,8 @@ namespace CodeBase.Infrastructure.Factory
     {
         void Load();
         WindowBase CreateWindow(WindowType windowType);
-        GameObject CreateNavigationBar();
+        void CreateNavigationBar();
+        StoreContentView CreateStoreContent(Transform parent);
+        ClickEffectView CreateEffectClick(Transform parent);
     }
 }

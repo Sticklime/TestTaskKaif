@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe290ef4e5f40e7beea2faf93dbb1b4, type: 3}
+  m_Name: ItemRed
+  m_EditorClassIdentifier: 
+  <NameItem>k__BackingField: Potion red
+  <IconItem>k__BackingField: {fileID: -1966185638, guid: 14552b0aef816a34d85511f1cebcfb1d, type: 3}
+  <ItemType>k__BackingField: 6
+  <PriceItem>k__BackingField: 1500
+  <ClickForced>k__BackingField: 7

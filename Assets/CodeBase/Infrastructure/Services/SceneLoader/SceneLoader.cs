@@ -21,9 +21,4 @@ namespace CodeBase.Infrastructure.Services.SceneLoader
             onLoaded?.Invoke();
         }
     }
-
-    public interface ISceneLoader
-    {
-        UniTask Load(string name, Action onLoaded = null);
-    }
 }
